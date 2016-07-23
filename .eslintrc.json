@@ -1,0 +1,74 @@
+{
+  "extends": [
+    "airbnb",
+    "ember"
+  ],
+  "env": {
+    "jquery":     "true"
+  },
+  "rules": {
+    "max-len": ["warn", 80],
+    "import/no-unresolved": 0,
+    "consistent-this": ["warn", "self"],
+    "key-spacing": ["warn", { "align": "value" }],
+    "comma-dangle": ["warn", "never"],
+    "no-param-reassign": ["warn", { "props": false }],
+    "no-multiple-empty-lines": ["warn", {"max": 1}],
+    "no-ternary": 0,
+    "no-magic-numbers": 0,
+    "arrow-parens": ["warn", "always"],
+    "no-multi-spaces": ["warn", {
+      "exceptions": {
+        "VariableDeclarator": true,
+        "ImportDeclaration":  true
+      }
+    }],
+
+    "no-unneeded-ternary": ["warn", {"defaultAssignment": false}],
+    "prefer-const": "warn",
+    "no-negated-condition": "warn",
+    "prefer-rest-params": "off",
+    "arrow-spacing": "warn",
+    "arrow-body-style": "warn",
+    "array-callback-return": "warn",
+    "block-scoped-var": "warn",
+    "brace-style": "warn",
+    "callback-return": "warn",
+    "camelcase": "warn",
+    "complexity": "warn",
+    "consistent-return": "warn",
+    "dot-notation": "warn",
+    "indent": "warn",
+    "max-depth": "warn",
+    "max-nested-callbacks": "warn",
+    "newline-after-var": "warn",
+    "newline-before-return": "warn",
+    "newline-per-chained-call": "warn",
+    "no-alert": "warn",
+    "no-console": "warn",
+    "no-else-return": "warn",
+    "no-empty": "warn",
+    "no-extra-bind": "warn",
+    "no-extra-parens": "warn",
+    "no-implicit-coercion": "warn",
+    "no-lonely-if": "warn",
+    "no-loop-func": "warn",
+    "no-mixed-spaces-and-tabs": "warn",
+    "no-redeclare": "warn",
+    "no-shadow": "warn",
+    "no-undef": "warn",
+    "no-undefined": "warn",
+    "no-unused-expressions": "warn",
+    "no-unused-vars": "warn",
+    "no-use-before-define": "warn",
+    "no-var": "warn",
+    "no-warning-comments": "warn",
+    "one-var": "warn",
+    "prefer-reflect": "warn",
+    "prefer-spread": "warn",
+    "quote-props": "warn",
+    "radix": "warn",
+    "valid-typeof": "warn",
+    "vars-on-top": "warn"
+  }
+}
